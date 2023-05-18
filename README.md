@@ -6,17 +6,17 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="project-resources/img/ph_1.png">
-    <img alt="image" src="project-resources/img/ph_0.png" width=300">
+    <source media="(prefers-color-scheme: dark)" srcset="project-resources/img/openjdk.png">
+    <img alt="image" src="project-resources/img/java.png" width=300">
   </picture>
 </div>
 
-Pasos:
+Index:
 
 * [**1. Inmediate Execution**](#1-Inmediate-Execution)
 * [**2. Generate bytecode**](#2-Generar-bytecode)
 * [**3. Generate bytecode in other path**](#3-Generar-bytecode-en-otro-directorio)
-* [**4. Exwecute bytecode**](#4-Ejecutar-bytecode)
+* [**4. Execute bytecode**](#4-Ejecutar-bytecode)
 * [**5. Jar creation v1**](#5-Creación-del-jar-v1)
 * [**6. Execute jar v1**](#6-Ejecutar-jar-v1)
 * [**7. Create config file**](#7-Creando-archivo-de-configuración)
