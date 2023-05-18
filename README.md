@@ -13,15 +13,15 @@
 
 Pasos:
 
-* [**Inmediate Execution**](#)
-* [**Generate bytecode**](#)
-* [**Generate bytecode in other path**](#)
-* [**Exwecute bytecode**](#)
-* [**Jar creation v1**](#)
-* [**Execute jar v1**](#)
-* [**Create config file**](#)
-* [**Jar creation v2**](#)
-* [**Execute jar v2**](#)
+* [**Inmediate Execution**](#Inmediate-Execution)
+* [**Generate bytecode**](#Generar-bytecode)
+* [**Generate bytecode in other path**](#Generar-bytecode-en-otro-directorio)
+* [**Exwecute bytecode**](#Ejecutar-bytecode)
+* [**Jar creation v1**](#Creación-del-jar-v1)
+* [**Execute jar v1**](#Ejecutar-jar-v1)
+* [**Create config file**](#Creando-archivo-de-configuración)
+* [**Jar creation v2**](#Creación-del-jar-v2)
+* [**Execute jar v2**](#Ejecutar-jar-v2)
 
 
 <br/>
@@ -118,7 +118,7 @@ Nos devolverá el siguiente mensaje `no main manifest attribute, in Main.jar` si
 
 ---
 
-## Creando archivo de configuración `MANIFEST.MF`.
+## Creando archivo de configuración.
 
 Creamos el archivo de configuración en path/src$ `src/META-INF/MANIFEST.MF`.
 
