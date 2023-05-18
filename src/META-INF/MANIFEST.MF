@@ -1,0 +1,4 @@
+Built-By: Andr7st
+Main-Class: org.andr7st.app.Main
+Name: consoleapp
+Sealed: true

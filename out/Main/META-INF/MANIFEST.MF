@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Andr7st
+Main-Class: org.andr7st.app.Main
+Name: consoleapp
+Created-By: 11.0.19 (Amazon.com Inc.)
+
