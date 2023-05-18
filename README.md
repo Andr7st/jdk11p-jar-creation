@@ -13,15 +13,15 @@
 
 Pasos:
 
-* [**Inmediate Execution**](#Inmediate-Execution)
-* [**Generate bytecode**](#Generar-bytecode)
-* [**Generate bytecode in other path**](#Generar-bytecode-en-otro-directorio)
-* [**Exwecute bytecode**](#Ejecutar-bytecode)
-* [**Jar creation v1**](#Creación-del-jar-v1)
-* [**Execute jar v1**](#Ejecutar-jar-v1)
-* [**Create config file**](#Creando-archivo-de-configuración)
-* [**Jar creation v2**](#Creación-del-jar-v2)
-* [**Execute jar v2**](#Ejecutar-jar-v2)
+* [**1. Inmediate Execution**](#1-Inmediate-Execution)
+* [**2. Generate bytecode**](#2-Generar-bytecode)
+* [**3. Generate bytecode in other path**](#3-Generar-bytecode-en-otro-directorio)
+* [**4. Exwecute bytecode**](#4-Ejecutar-bytecode)
+* [**5. Jar creation v1**](#5-Creación-del-jar-v1)
+* [**6. Execute jar v1**](#6-Ejecutar-jar-v1)
+* [**7. Create config file**](#7-Creando-archivo-de-configuración)
+* [**8. Jar creation v2**](#8-Creación-del-jar-v2)
+* [**9. Execute jar v2**](#9-Ejecutar-jar-v2)
 
 
 <br/>
@@ -73,7 +73,7 @@ Java en las versiones 11 o superior puede ejecutar el código sin la necesidad d
 
 ---
 
-## Generar bytecode en otro directorio
+## 3. Generar bytecode en otro directorio
 
 Para "compilar" wn otro directorio se usa la opción `-d` el nombre de nuestro directorio es `out/`.
 
@@ -83,7 +83,7 @@ Este comando habrá creado dos archivos bytecode con la ruta del paquete dentro 
 
 ---
 
-## Ejecutar bytecode
+## 4. Ejecutar bytecode
 
 
 * path/src$ `java org/andr7st/app/Main`
@@ -97,7 +97,7 @@ El bytecode se encuentra dentro de otro directorio.
 
 ---
 
-## Creación del jar v1
+## 5. Creación del jar v1
 
 * $ `jar --version` # jar 11+.x.x 
 
@@ -110,7 +110,7 @@ Dentro del directorio debe estar eb bytecode creado correctamente.
 
 ---
 
-## Ejecutar jar v1
+## 6. Ejecutar jar v1
 
 * path/out$ `java -jar ./Main.jar`
 
@@ -118,7 +118,7 @@ Nos devolverá el siguiente mensaje `no main manifest attribute, in Main.jar` si
 
 ---
 
-## Creando archivo de configuración.
+## 7. Creando archivo de configuración.
 
 Creamos el archivo de configuración en path/src$ `src/META-INF/MANIFEST.MF`.
 
@@ -128,7 +128,7 @@ Main-Class: org.andr7st.app.Start
 ```
 ---
 
-## Creación del jar v2
+## 8. Creación del jar v2
 
 Creando el jar agregandole el archivo `MANIFEST.MF`.
 
@@ -140,7 +140,7 @@ En la alternativa se debe poner manifest seguido del la ruta en donde se encuent
 
 ---
 
-## Ejecutar jar v2
+## 9. Ejecutar jar v2
 
 En este caso será satisfactoriamente ejecutado el jar.
 
