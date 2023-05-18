@@ -11,6 +11,21 @@
   </picture>
 </div>
 
+Pasos:
+
+* [**Inmediate Execution**](#)
+* [**Generate bytecode**](#)
+* [**Generate bytecode in other path**](#)
+* [**Exwecute bytecode**](#)
+* [**Jar creation v1**](#)
+* [**Execute jar v1**](#)
+* [**Create config file**](#)
+* [**Jar creation v2**](#)
+* [**Execute jar v2**](#)
+
+
+
+
 <br/>
 
 ## Código.
@@ -47,7 +62,7 @@ Puedes revisar el código [aquí](src/org/andr7st/app/Main.java).
 <br/>
 
 
-## Ejecusion inmediata usando java jdk11+.
+## 1. Inmediate Execution
 
 Java en las versiones 11 o superior puede ejecutar el código sin la necesidad de crear un bytecode de esta manera; la condición es que todo el código esté dentro del mismo archivo java.
 
@@ -58,7 +73,7 @@ Java en las versiones 11 o superior puede ejecutar el código sin la necesidad d
 
 <br/>
 
-## Generar bytecode
+## 2. Generar bytecode
 
 * path/src$ `javac org/andr7st/app/Main.java`
 * path/src$ `javac org/andr7st/app/*.java` # variante
