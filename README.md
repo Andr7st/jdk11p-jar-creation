@@ -6,8 +6,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="project-resources/img/openjdk.png">
-    <img alt="image" src="project-resources/img/java.png" width=300">
+    <source media="(prefers-color-scheme: dark)" srcset="project-resources/img/duke_birrete.png">
+    <img alt="image" src="project-resources/img/duke.png" width=300">
   </picture>
 </div>
 
