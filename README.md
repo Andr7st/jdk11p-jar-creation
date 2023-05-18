@@ -148,5 +148,19 @@ En este caso será satisfactoriamente ejecutado el jar.
 
 ---
 
-[**Andr7st**](https://github.com/Andr7st/)
+<br/>
+
+Esto sólo fue un ejercicio de práctica para el examen, existen muchas más opciones, para verlas se debe ejecutar `jar --help` para ver más detalles.
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/Andr7st/" target="_blank">
+    <img alt="image" src="project-resources/img/hello-world-jar.png" alt="imagen">
+  </a>
+</div>
+
+
+
+[**Andr7st - Andrés Segura**](https://github.com/Andr7st/)
 
